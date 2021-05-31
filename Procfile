@@ -1,1 +1,1 @@
-python "Hello World.py" 
+web: gunicorn "Hello World":app --log-file -
